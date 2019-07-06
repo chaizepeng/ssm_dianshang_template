@@ -1,0 +1,38 @@
+2019-06-19 21:58:43,338 ERROR [main] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
+2019-06-19 21:58:43,338 ERROR [main] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-06-19 22:38:47,908 ERROR [OkHttp ConnectionPool] - System.err - 六月 19, 2019 10:38:47 下午 okhttp3.internal.platform.Platform log
+警告: A connection to https://repo.maven.apache.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2019-06-19 22:38:48,830 ERROR [OkHttp ConnectionPool] - System.err - 六月 19, 2019 10:38:48 下午 okhttp3.internal.platform.Platform log
+警告: A connection to https://repo.maven.apache.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2019-06-19 22:38:48,830 ERROR [OkHttp ConnectionPool] - System.err - 六月 19, 2019 10:38:48 下午 okhttp3.internal.platform.Platform log
+警告: A connection to https://repo.maven.apache.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2019-06-20 07:40:38,198 ERROR [main] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
+2019-06-20 07:40:38,218 ERROR [main] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-06-20 07:41:37,947 ERROR [main] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
+2019-06-20 07:41:37,947 ERROR [main] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-06-20 07:44:56,490 ERROR [Worker-4] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
+2019-06-20 07:44:56,501 ERROR [Worker-4] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-06-20 07:49:48,972 ERROR [Worker-6] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
+2019-06-20 07:49:48,992 ERROR [Worker-6] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-06-20 08:28:24,275 ERROR [Worker-3] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.builder.MavenBuilder).
+2019-06-20 08:28:24,285 ERROR [Worker-3] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-06-21 22:36:50,481 ERROR [Worker-2] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.builder.MavenBuilder).
+2019-06-21 22:36:50,561 ERROR [Worker-2] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-06-23 15:30:01,046 ERROR [Thread-177] - System.err - Exception in thread "Thread-177"
+2019-06-23 15:30:01,105 ERROR [Thread-177] - System.err - java.util.ConcurrentModificationException
+2019-06-23 15:30:01,105 ERROR [Thread-177] - System.err - at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+2019-06-23 15:30:01,105 ERROR [Thread-177] - System.err - at java.util.HashMap$KeyIterator.next(Unknown Source)
+2019-06-23 15:30:01,105 ERROR [Thread-177] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:742)
+2019-06-23 15:30:01,105 ERROR [Thread-177] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:666)
+2019-06-23 15:30:01,105 ERROR [Thread-177] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.removeSummaries(ProjectionSummary.java:171)
+2019-06-23 15:30:01,105 ERROR [Thread-177] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.internalUpdateSummaries(ProjectionSummary.java:150)
+2019-06-23 15:30:01,126 ERROR [Thread-177] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.access$3(ProjectionSummary.java:145)
+2019-06-23 15:30:01,126 ERROR [Thread-177] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary$Summarizer.run(ProjectionSummary.java:70)
+2019-06-30 11:16:33,916 ERROR [Worker-4] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.builder.MavenBuilder).
+2019-06-30 11:16:33,937 ERROR [Worker-4] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-07-03 06:48:39,265 ERROR [Worker-12] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.aether.internal.impl.DefaultLocalRepositoryProvider).
+2019-07-03 06:48:39,298 ERROR [Worker-12] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-07-03 07:05:27,965 ERROR [OkHttp ConnectionPool] - System.err - 七月 03, 2019 7:05:27 上午 okhttp3.internal.platform.Platform log
+警告: A connection to https://repo.maven.apache.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2019-07-03 07:05:27,966 ERROR [OkHttp ConnectionPool] - System.err - 七月 03, 2019 7:05:27 上午 okhttp3.internal.platform.Platform log
+警告: A connection to https://repo.maven.apache.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
