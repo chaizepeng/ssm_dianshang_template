@@ -4,15 +4,15 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.czp</groupId>
-    <artifactId>ufd-manager</artifactId>
+    <artifactId>ssm-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>ufd-manager-service</artifactId>
+  <artifactId>ssm-manager-service</artifactId>
   
   <dependencies>
   	<dependency>
   		<groupId>com.czp</groupId>
-  		<artifactId>ufd-manager-mapper</artifactId>
+  		<artifactId>ssm-manager-mapper</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   	

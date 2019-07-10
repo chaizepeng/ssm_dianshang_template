@@ -1,5 +1,0 @@
-0:0:0:0:0:0:0:1 - - [03/Jul/2019:07:26:26 +0800] "GET /ufd-manager/index.jsp HTTP/1.1" 404 993 http-bio-8080-exec-1 84
-0:0:0:0:0:0:0:1 - - [03/Jul/2019:07:26:27 +0800] "GET /ufd-manager/index.jsp HTTP/1.1" 404 993 http-bio-8080-exec-3 2
-0:0:0:0:0:0:0:1 - - [03/Jul/2019:07:26:30 +0800] "GET /ufd-manager/index.jsp HTTP/1.1" 404 993 http-bio-8080-exec-5 1
-0:0:0:0:0:0:0:1 - - [03/Jul/2019:07:26:49 +0800] "GET /ufd-manager/index.jsp HTTP/1.1" 404 993 http-bio-8080-exec-8 2
-0:0:0:0:0:0:0:1 - - [03/Jul/2019:07:27:01 +0800] "GET /ufd-manager HTTP/1.1" 404 949 http-bio-8080-exec-1 24

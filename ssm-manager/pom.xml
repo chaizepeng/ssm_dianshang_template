@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.czp</groupId>
-    <artifactId>ufd-parent</artifactId>
+    <artifactId>ssm-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.czp</groupId>
-  <artifactId>ufd-manager</artifactId>
+  <artifactId>ssm-manager</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   
@@ -14,16 +14,16 @@
   <dependencies>
   	<dependency>
   		<groupId>com.czp</groupId>
-  		<artifactId>ufd-commons</artifactId>
+  		<artifactId>ssm-commons</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
   
   <modules>
-  	<module>ufd-manager-pojo</module>
-  	<module>ufd-manager-mapper</module>
-  	<module>ufd-manager-service</module>
-  	<module>ufd-manager-web</module>
+  	<module>ssm-manager-pojo</module>
+  	<module>ssm-manager-mapper</module>
+  	<module>ssm-manager-service</module>
+  	<module>ssm-manager-web</module>
   </modules>
   
   <build>

@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.czp</groupId>
-    <artifactId>ufd-parent</artifactId>
+    <artifactId>ssm-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.czp</groupId>
-  <artifactId>ufd-commons</artifactId>
+  <artifactId>ssm-commons</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <!-- jar包的依赖 -->

@@ -2,16 +2,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.czp</groupId>
-    <artifactId>ufd-manager</artifactId>
+    <artifactId>ssm-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>ufd-manager-web</artifactId>
+  <artifactId>ssm-manager-web</artifactId>
   <packaging>war</packaging>
   
   <dependencies>
   	<dependency>
   		<groupId>com.czp</groupId>
-  		<artifactId>ufd-manager-service</artifactId>
+  		<artifactId>ssm-manager-service</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   	

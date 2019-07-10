@@ -2,16 +2,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.czp</groupId>
-    <artifactId>ufd-manager</artifactId>
+    <artifactId>ssm-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>ufd-manager-mapper</artifactId>
+  <artifactId>ssm-manager-mapper</artifactId>
   
   <dependencies>
   	<!-- 添加pojo模块依赖 -->
   	<dependency>
   		<groupId>com.czp</groupId>
-  		<artifactId>ufd-manager-pojo</artifactId>
+  		<artifactId>ssm-manager-pojo</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   	
