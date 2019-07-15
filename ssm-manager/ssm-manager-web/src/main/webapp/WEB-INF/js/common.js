@@ -72,6 +72,7 @@ var TT = TAOTAO = {
         			<ul></ul>\
         		</div>');
     		// 回显图片
+    		console.log(data);
         	if(data && data.pics){
         		var imgs = data.pics.split(",");
         		for(var i in imgs){
@@ -82,6 +83,7 @@ var TT = TAOTAO = {
         	}
         	//给“上传图片按钮”绑定click事件
         	$(e).click(function(){
+        		console.log("---------图片上传");
         		var form = $(this).parentsUntil("form").parent("form");
         		//打开图片上传窗口
         		KindEditor.editor(TT.kingEditorParams).loadPlugin('multiimage',function(){
@@ -90,6 +92,7 @@ var TT = TAOTAO = {
 						clickFn : function(urlList) {
 							var imgArray = [];
 							KindEditor.each(urlList, function(i, data) {
+								console.log(urlList);
 								imgArray.push(data.url);
 								form.find(".pics ul").append("<li><a href='"+data.url+"' target='_blank'><img src='"+data.url+"' width='80' height='50' /></a></li>");
 							});
@@ -125,12 +128,13 @@ var TT = TAOTAO = {
     			    	$("ul",_win).tree({
     			    		url:'/item/cat/list',
     			    		animate:true,
-    			    		onClick : function(node){
+    			    		onClick : function(node){ // 为每一个类目添加点击事件
     			    			if($(this).tree("isLeaf",node.target)){
     			    				// 填写到cid中
     			    				_ele.parent().find("[name=cid]").val(node.id);
     			    				_ele.next().text(node.text).attr("cid",node.id);
     			    				$(_win).window('close');
+    			    				console.log("data--->"+data);
     			    				if(data && data.fun){
     			    					data.fun.call(this,node);
     			    				}
