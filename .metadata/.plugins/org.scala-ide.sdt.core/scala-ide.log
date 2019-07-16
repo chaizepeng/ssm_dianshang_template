@@ -36,3 +36,5 @@
 警告: A connection to https://repo.maven.apache.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
 2019-07-03 07:05:27,966 ERROR [OkHttp ConnectionPool] - System.err - 七月 03, 2019 7:05:27 上午 okhttp3.internal.platform.Platform log
 警告: A connection to https://repo.maven.apache.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2019-07-16 17:26:28,920 ERROR [Worker-5] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
+2019-07-16 17:26:28,923 ERROR [Worker-5] - System.err - log4j:WARN Please initialize the log4j system properly.
