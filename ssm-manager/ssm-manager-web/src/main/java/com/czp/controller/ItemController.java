@@ -29,10 +29,18 @@ public class ItemController {
 		return itemSerivce.getItemList(page, rows);
 	}
 	
+	/**
+	 * 添加商品
+	 * @param item
+	 * @param desc
+	 * @param itemParams
+	 * @return
+	 * @throws Exception
+	 */
 	@RequestMapping(value="/item/save",method=RequestMethod.POST)
 	@ResponseBody
-	public AjaxReturnResult createItem(DsItem item) {
-		AjaxReturnResult result = itemSerivce.createItem(item);
+	public AjaxReturnResult createItem(DsItem item ,String desc,String itemParams) throws Exception {
+		AjaxReturnResult result = itemSerivce.createItem(item,desc,itemParams);
 		System.out.println("返回信息"+result);
 		return result;
 	}

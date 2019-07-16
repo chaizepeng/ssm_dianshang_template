@@ -10,5 +10,5 @@ public interface ItemSerivce {
 	
 	PageResult getItemList(int page,int rows);
 	
-	AjaxReturnResult createItem(DsItem dsItem);
+	AjaxReturnResult createItem(DsItem dsItem,String desc, String itemParams) throws Exception;
 }

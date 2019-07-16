@@ -193,7 +193,7 @@ var TT = TAOTAO = {
     	$(".panel-tool-close").click();
     },
     
-    changeItemParam : function(node,formId){
+    changeItemParam : function(node,formId){// 初始化参数模板，读取模板，生成表单
     	$.getJSON("/item/param/query/itemcatid/" + node.id,function(data){
 			  if(data.status == 200 && data.data){
 				 $("#"+formId+" .params").show();
