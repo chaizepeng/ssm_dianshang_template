@@ -103,6 +103,10 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.czp.pojo.DsContentCategory" >
+    <!-- 添加主键返回 -->
+    <selectKey keyProperty="id" resultType="long"  order="AFTER">
+    	SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into ds_content_category (id, parent_id, name, 
       status, sort_order, is_parent, 
       created, updated)
@@ -110,6 +114,7 @@
       #{status,jdbcType=INTEGER}, #{sortOrder,jdbcType=INTEGER}, #{isParent,jdbcType=BIT}, 
       #{created,jdbcType=TIMESTAMP}, #{updated,jdbcType=TIMESTAMP})
   </insert>
+  
   <insert id="insertSelective" parameterType="com.czp.pojo.DsContentCategory" >
     insert into ds_content_category
     <trim prefix="(" suffix=")" suffixOverrides="," >
