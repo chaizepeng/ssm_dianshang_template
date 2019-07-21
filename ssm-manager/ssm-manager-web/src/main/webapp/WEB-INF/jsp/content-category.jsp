@@ -16,6 +16,7 @@ $(function(){
 		animate: true,
 		method : "GET",
 		onContextMenu: function(e,node){
+			//console.log(node);
             e.preventDefault();
             $(this).tree('select',node.target);
             $('#contentCategoryMenu').menu('show',{
@@ -60,26 +61,14 @@ function menuHandler(item){
 	}else if(item.name === "rename"){
 		tree.tree('beginEdit',node.target);
 	}else if(item.name === "delete"){
-		var flag = 0;
-		if(node.state === "closed"){
-			$.messager.confirm('确认','将会级联删除此类下的所有分类，是否继续？',function(r){
-				if(r){
-					flag = 1;
-				}
-			});
-		}else{
-			$.messager.confirm('确认','确定删除名为 '+node.text+' 的分类吗？',function(r){
+		$.messager.confirm('确认','确定删除名为 '+node.text+' 的分类吗？如果是文件夹将会级联删除！',function(r){
 			if(r){
-				flag = 1;
+				$.post("/content/category/delete",{id:node.id},function(){
+					tree.tree("remove",node.target);
+				});	
 			}
 		});
-		}
 		
-		if(flag == 1){
-			$.post("/content/category/delete",{id:node.id},function(){
-						tree.tree("remove",node.target);
-					});	
-		}
 	}
 }
 </script>
