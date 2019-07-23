@@ -1,5 +1,8 @@
+com\czp\rest\service\impl\ContentServiceImpl.class
 com\czp\rest\pojo\CatResult.class
 com\czp\rest\pojo\CatNode.class
 com\czp\rest\service\impl\ItemCatServiceImpl.class
+com\czp\rest\service\ContentSerevice.class
 com\czp\rest\controller\ItemCatController.class
 com\czp\rest\service\ItemCatService.class
+com\czp\rest\controller\ContentController.class

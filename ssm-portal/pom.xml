@@ -64,7 +64,12 @@
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 		</dependency>
-	
+	<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
   </dependencies>
   
   <build>
@@ -76,9 +81,6 @@
 				<configuration>
 					<port>8083</port>
 					<path>/</path>
-					<!-- <url>http://localhost:8080/manager</url>
-					<username>tomcat</username>
-					<password>tomcat</password> -->
 				</configuration>
 			</plugin>
 		</plugins>
