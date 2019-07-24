@@ -1,4 +1,0 @@
-0:0:0:0:0:0:0:1 - - [23/Jul/2019:16:27:37 +0800] "GET / HTTP/1.1" 404 951 http-bio-8081-exec-1 36
-0:0:0:0:0:0:0:1 - - [23/Jul/2019:16:27:37 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8081-exec-2 1
-0:0:0:0:0:0:0:1 - - [23/Jul/2019:16:28:02 +0800] "GET /rest/content/list/1 HTTP/1.1" 200 46 http-bio-8081-exec-4 1578
-0:0:0:0:0:0:0:1 - - [23/Jul/2019:16:28:29 +0800] "GET /rest/content/list/89 HTTP/1.1" 200 1032 http-bio-8081-exec-5 13
