@@ -81,9 +81,9 @@ public class HttpClientTest {
 	
 	@Test
 	public void doPostWithParam() throws Exception {
-		CloseableHttpClient httpClient = HttpClients.createDefault();
+		CloseableHttpClient httpClient = HttpClients.createDefault(); 
 		// 创建post对象
-		HttpPost post = new HttpPost("http://localhost:8083/httpclient/post.html");
+		HttpPost post = new HttpPost("http://localhost:8083/httpclient/post.action");
 		List<NameValuePair> kvList = new ArrayList<NameValuePair>();
 		kvList.add(new BasicNameValuePair("name", "小柴"));
 		kvList.add(new BasicNameValuePair("password", "123456"));

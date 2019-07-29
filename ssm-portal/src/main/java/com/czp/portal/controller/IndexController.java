@@ -1,6 +1,7 @@
 package com.czp.portal.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +24,7 @@ public class IndexController {
 		return "index";
 	}
 	
-	@RequestMapping(value="/httpclient/post", method=RequestMethod.POST)
+	@RequestMapping(value="/httpclient/post", method=RequestMethod.POST,produces=MediaType.TEXT_PLAIN_VALUE+";charset=utf-8")
 	@ResponseBody
 	public String testPost(String name,String password) {
 		return "name:"+name+",password:"+password;
