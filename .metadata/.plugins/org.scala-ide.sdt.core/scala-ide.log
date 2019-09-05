@@ -38,3 +38,6 @@
 ¾¯¸æ: A connection to https://repo.maven.apache.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
 2019-07-16 17:26:28,920 ERROR [Worker-5] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
 2019-07-16 17:26:28,923 ERROR [Worker-5] - System.err - log4j:WARN Please initialize the log4j system properly.
+2019-09-05 12:57:32,090 ERROR [main] - System.err - SLF4J: No SLF4J providers were found.
+2019-09-05 12:57:32,092 ERROR [main] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-09-05 12:57:32,092 ERROR [main] - System.err - SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.

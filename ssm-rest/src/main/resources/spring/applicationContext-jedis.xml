@@ -32,13 +32,16 @@
 	</bean>
 	
 	<!-- redis单机 通过连接池 -->
-	<!-- <bean id="jedisPool" class="redis.clients.jedis.JedisPool" destroy-method="close">
+	<bean id="jedisPool" class="redis.clients.jedis.JedisPool" destroy-method="close">
 		<constructor-arg name="poolConfig" ref="jedisPoolConfig"/>
-		<constructor-arg name="host" value="192.168.1.28"/>
+		<constructor-arg name="host" value="192.168.1.9"/>
 		<constructor-arg name="port" value="6379"/>
-	</bean> -->
+	</bean> 
 	
-	<bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+	<!-- 在这里配置dao -->
+	<bean id="jedisClient" class="com.czp.rest.dao.impl.JedisClienetSingle"></bean>
+	
+	<!-- <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
 		<constructor-arg index="0">
 			<set>
 				<bean class="redis.clients.jedis.HostAndPort">
@@ -68,5 +71,6 @@
 			</set>
 		</constructor-arg>
 		<constructor-arg index="1" ref="jedisPoolConfig"></constructor-arg>
-	</bean>
+	</bean> 
+	<bean id="jedisClientCluster" class="com.czp.rest.dao.impl.JedisClientCluster"></bean> -->
 </beans>

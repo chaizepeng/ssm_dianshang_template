@@ -11,6 +11,7 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1561864198030"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_CL-Ugp_eEemAAZHx3jDwsw" selectedElement="_CL-Ug5_eEemAAZHx3jDwsw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_CL-Ug5_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_CL-UhJ_eEemAAZHx3jDwsw">
         <children xsi:type="advanced:Perspective" xmi:id="_CL-UhJ_eEemAAZHx3jDwsw" elementId="org.scala-ide.sdt.core.perspective" selectedElement="_CL-UhZ_eEemAAZHx3jDwsw" label="Scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/eview16/sperspective.gif">
@@ -171,7 +172,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CL-7w5_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xyS6cKerEemyyp6WDV6uyQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_CMAzT5_eEemAAZHx3jDwsw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qRutIM-ZEemv2-gBLphTAA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_CMAzT5_eEemAAZHx3jDwsw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CL-70J_eEemAAZHx3jDwsw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -192,7 +193,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CL-8Bp_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xyVWsKerEemyyp6WDV6uyQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_CMAy_J_eEemAAZHx3jDwsw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qRxJYc-ZEemv2-gBLphTAA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_CMAy_J_eEemAAZHx3jDwsw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CL-8EJ_eEemAAZHx3jDwsw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -599,6 +600,7 @@
     <bindings xmi:id="_CL-9iJ_eEemAAZHx3jDwsw" keySequence="CTRL+SHIFT+ARROW_UP" command="_CMAx9Z_eEemAAZHx3jDwsw"/>
     <bindings xmi:id="_CL-9iZ_eEemAAZHx3jDwsw" keySequence="CTRL+SHIFT+ARROW_DOWN" command="_CMAxwp_eEemAAZHx3jDwsw"/>
     <bindings xmi:id="_CL-9ip_eEemAAZHx3jDwsw" keySequence="CTRL+2 F" command="_CMAzvJ_eEemAAZHx3jDwsw"/>
+    <bindings xmi:id="_ptILQM-ZEemv2-gBLphTAA" keySequence="ALT+CTRL+C" command="_pst7kc-ZEemv2-gBLphTAA"/>
   </bindingTables>
   <bindingTables xmi:id="_CL-9i5_eEemAAZHx3jDwsw" elementId="org.eclipse.jdt.ui.propertiesEditorScope" bindingContext="_CL_iwZ_eEemAAZHx3jDwsw">
     <bindings xmi:id="_CL-9jJ_eEemAAZHx3jDwsw" keySequence="CTRL+/" command="_CMAyN5_eEemAAZHx3jDwsw"/>
@@ -693,6 +695,7 @@
   <bindingTables xmi:id="_CL_ioJ_eEemAAZHx3jDwsw" bindingContext="_CL_i95_eEemAAZHx3jDwsw"/>
   <bindingTables xmi:id="_CL_ioZ_eEemAAZHx3jDwsw" bindingContext="_CL_i-J_eEemAAZHx3jDwsw"/>
   <bindingTables xmi:id="_xxOjcaerEemyyp6WDV6uyQ" bindingContext="_xxOjcKerEemyyp6WDV6uyQ"/>
+  <bindingTables xmi:id="_qQPfYc-ZEemv2-gBLphTAA" bindingContext="_qQPfYM-ZEemv2-gBLphTAA"/>
   <rootContext xmi:id="_CL_iop_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_CL_io5_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Windows" description="A window is open">
       <children xmi:id="_CL_ipJ_eEemAAZHx3jDwsw" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="%bindingcontext.name.bindingView"/>
@@ -788,6 +791,7 @@
   <rootContext xmi:id="_CL_i95_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.cheatsheets.actionSet" name="Auto::org.eclipse.ui.cheatsheets.actionSet"/>
   <rootContext xmi:id="_CL_i-J_eEemAAZHx3jDwsw" elementId="org.tigris.subversion.subclipse.actionSet" name="Auto::org.tigris.subversion.subclipse.actionSet"/>
   <rootContext xmi:id="_xxOjcKerEemyyp6WDV6uyQ" elementId="org.sf.feeling.decompiler.decompilerActionSet" name="Auto::org.sf.feeling.decompiler.decompilerActionSet"/>
+  <rootContext xmi:id="_qQPfYM-ZEemv2-gBLphTAA" elementId="net.sf.eclipsecs.ui.actionSet" name="Auto::net.sf.eclipsecs.ui.actionSet"/>
   <descriptors xmi:id="_CL_i-Z_eEemAAZHx3jDwsw" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>
@@ -1222,6 +1226,30 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.tigris.subversion.subclipse.ui"/>
     <tags>View</tags>
     <tags>categoryTag:SVN</tags>
+  </descriptors>
+  <descriptors xmi:id="_pwhdgM-ZEemv2-gBLphTAA" elementId="de.tobject.findbugs.view.buginfoview" label="Bug Info" iconURI="platform:/plugin/com.github.spotbugs.plugin.eclipse/icons/annotationsView.png" tooltip="" category="SpotBugs" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.tobject.findbugs.view.BugInfoView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="com.github.spotbugs.plugin.eclipse"/>
+    <tags>View</tags>
+    <tags>categoryTag:SpotBugs</tags>
+  </descriptors>
+  <descriptors xmi:id="_pwiroM-ZEemv2-gBLphTAA" elementId="de.tobject.findbugs.view.bugtreeview" label="Bug Explorer" iconURI="platform:/plugin/com.github.spotbugs.plugin.eclipse/icons/treeView.png" tooltip="" category="SpotBugs" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.tobject.findbugs.view.BugExplorerView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="com.github.spotbugs.plugin.eclipse"/>
+    <tags>View</tags>
+    <tags>categoryTag:SpotBugs</tags>
+  </descriptors>
+  <descriptors xmi:id="_pwjSsM-ZEemv2-gBLphTAA" elementId="net.sf.eclipsecs.ui.stats.views.MarkerStatsView" label="Checkstyle violations" iconURI="platform:/plugin/net.sf.eclipsecs.ui/icons/listingView.gif" tooltip="" category="Checkstyle" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="net.sf.eclipsecs.ui.stats.views.MarkerStatsView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="net.sf.eclipsecs.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:Checkstyle</tags>
+  </descriptors>
+  <descriptors xmi:id="_pwj5wM-ZEemv2-gBLphTAA" elementId="net.sf.eclipsecs.ui.stats.views.GraphStatsView" label="Checkstyle violations chart" iconURI="platform:/plugin/net.sf.eclipsecs.ui/icons/graphView.gif" tooltip="" category="Checkstyle" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="net.sf.eclipsecs.ui.stats.views.GraphStatsView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="net.sf.eclipsecs.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:Checkstyle</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
@@ -2410,6 +2438,24 @@
   <commands xmi:id="_xw1h5KerEemyyp6WDV6uyQ" elementId="AUTOGEN:::org.sf.feeling.decompiler.decompilerActionSet/org.sf.feeling.decompiler.actions.sourceCodeMenu" commandName="Show Source Code" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
   <commands xmi:id="_xw2I8KerEemyyp6WDV6uyQ" elementId="AUTOGEN:::org.sf.feeling.decompiler.ClassFileEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="Toggle Breakpoint" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
   <commands xmi:id="_xw2wAKerEemyyp6WDV6uyQ" elementId="AUTOGEN:::org.sf.feeling.decompiler.source.attach.m2e.downloadSourcesContribution/org.sf.feeling.decompiler.source.attach.m2e.downloadSourcesAction" commandName="Download Source" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_pst7kM-ZEemv2-gBLphTAA" elementId="FindBugs.command.copy" commandName="Copy Bug Details (Bug Group)" category="_psstcc-ZEemv2-gBLphTAA"/>
+  <commands xmi:id="_pst7kc-ZEemv2-gBLphTAA" elementId="CheckstylePlugin.ApplyCheckstyleFixes" commandName="Apply Checkstyle fixes" description="Apply available Checkstyle quickfixes on the whole file" category="_CMBYbJ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_pst7ks-ZEemv2-gBLphTAA" elementId="CheckstylePlugin.PurgeCaches" commandName="Purge Checkstyle caches" description="Purges internal Checkstyle caches to force reloading of auxiliary configuration files (e.g. suppression.xml)" category="_psstcs-ZEemv2-gBLphTAA"/>
+  <commands xmi:id="_pst7k8-ZEemv2-gBLphTAA" elementId="FindBugs.command.copy2" commandName="Copy Bug Details (Bug)" category="_psstcc-ZEemv2-gBLphTAA"/>
+  <commands xmi:id="_qP3E4M-ZEemv2-gBLphTAA" elementId="AUTOGEN:::net.sf.eclipsecs.ui.actionSet/net.sf.eclipsecs.action.purgecaches" commandName="Purge Checkstyle caches" description="Purges internal Checkstyle caches to force reloading of auxiliary configuration files (e.g. suppression.xml)" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP4TAM-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.action3" commandName="Go Up" description="Go Up" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP4TAc-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.action4" commandName="Go Into" description="Go Into" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP46EM-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.action1" commandName="Refresh" description="Refresh explorer content" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP46Ec-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.Confidence.Project.Pattern.Marker" commandName="Confidence->Project->Pattern" description="Change Bug Explorer Grouping" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP46Es-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.Confidence.BugRank.Pattern.Marker" commandName="Confidence->Rank->Pattern" description="Change Bug Explorer Grouping" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP46E8-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.BugRank.Project.Pattern.Marker" commandName="Rank->Project->Pattern" description="Change Bug Explorer Grouping" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP46FM-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.BugRank.Confidence.Pattern.Marker" commandName="Rank->Confidence->Pattern" description="Change Bug Explorer Grouping" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP5hIM-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.Project.Confidence.BugRank.Pattern.Marker" commandName="Project->Confidence->Rank->Pattern" description="Change Bug Explorer Grouping" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP5hIc-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.Project.BugRank.Confidence.Pattern.Marker" commandName="Project->Rank->Confidence->Pattern" description="Change Bug Explorer Grouping" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP5hIs-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.toggleGrouping.groupDialog" commandName="Group By..." description="Change Bug Explorer Grouping" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP5hI8-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.actionCollapse" commandName="Collapse All" description="Collapse All" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP5hJM-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.actionExpand" commandName="Expand All" description="Expand All" category="_CMBYcZ_eEemAAZHx3jDwsw"/>
+  <commands xmi:id="_qP5hJc-ZEemv2-gBLphTAA" elementId="AUTOGEN:::findBugsEclipsePlugin.viewContribution1/findBugsEclipsePlugin.filterBugs" commandName="Configure Filters..." description="Filter Bugs by Id..." category="_CMBYcZ_eEemAAZHx3jDwsw"/>
   <addons xmi:id="_CMBYP5_eEemAAZHx3jDwsw" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_CMBYQJ_eEemAAZHx3jDwsw" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_CMBYQZ_eEemAAZHx3jDwsw" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2421,7 +2467,7 @@
   <addons xmi:id="_CMBYR5_eEemAAZHx3jDwsw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_CMBYSJ_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_CMBYSZ_eEemAAZHx3jDwsw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_puiggM-ZEemv2-gBLphTAA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_CMBYS5_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_CMBYTJ_eEemAAZHx3jDwsw" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_CMBYTZ_eEemAAZHx3jDwsw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
@@ -2463,4 +2509,6 @@
   <categories xmi:id="_CMBYcZ_eEemAAZHx3jDwsw" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
   <categories xmi:id="_CMBYcp_eEemAAZHx3jDwsw" elementId="org.eclipse.wst.jsdt.ui.category.refactoring" name="Refactor - JavaScript" description="JavaScript Refactoring Actions"/>
   <categories xmi:id="_xPKYMaerEemyyp6WDV6uyQ" elementId="org.sf.feeling.decompiler" name="Enhanced Class Decompiler"/>
+  <categories xmi:id="_psstcc-ZEemv2-gBLphTAA" elementId="FindBugs.category" name="SpotBugs commands" description="SpotBugs commands"/>
+  <categories xmi:id="_psstcs-ZEemv2-gBLphTAA" elementId="net.sf.eclipsecs.ui" name="Checkstyle"/>
 </application:Application>
