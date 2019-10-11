@@ -41,3 +41,9 @@
 2019-09-05 12:57:32,090 ERROR [main] - System.err - SLF4J: No SLF4J providers were found.
 2019-09-05 12:57:32,092 ERROR [main] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
 2019-09-05 12:57:32,092 ERROR [main] - System.err - SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+2019-09-09 13:09:30,769 ERROR [main] - System.err - SLF4J: No SLF4J providers were found.
+2019-09-09 13:09:30,773 ERROR [main] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-09-09 13:09:30,773 ERROR [main] - System.err - SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+2019-10-08 13:00:02,338 ERROR [main] - System.err - SLF4J: No SLF4J providers were found.
+2019-10-08 13:00:02,340 ERROR [main] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2019-10-08 13:00:02,340 ERROR [main] - System.err - SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
